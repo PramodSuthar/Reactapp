@@ -29,9 +29,6 @@ const books = [
   },
 ];
 
-
-
-
 function MyComponent() {
   const [books, setData] = useState([]);
   const [loading, setLoading] = useState(false);
